@@ -23,27 +23,23 @@
 
     //Crea una función que reciba un array de números y devuelva la suma de todos sus elementos. Llámala con un array de ejemplo y muestra el resultado.
 
-        function sumarArray($numeros) {
+        function sumar($numeros) {
             $suma = 0;
             foreach ($numeros as $num) {
                 $suma += $num;
             }
             return $suma;
         }
-
-        // Array de ejemplo
-        $valores = array(2, 4, 6, 8, 10);
-
-        // Llamada a la función
-        $resultado = sumarArray($valores);
-
-        // Mostrar el resultado
-        echo "La suma de los elementos del array es: " . $resultado;
+        
+        $valores = [2, 4, 6, 8, 10]; // Array de ejemplo        
+        $resultado = sumar($valores); // Llamada a la función
+        
+        echo "La suma de los elementos del array es: " . $resultado; // Mostrar el resultado
 
     //Declara una variable con el valor null y utiliza la función is_null() para verificar si la variable tiene valor null.
 
-        $variable = null;
-        is_null($variable);
+        $variable = null; //Variable con valor null
+        is_null($variable); //Función para ver si la variable tiene el valor null
 
 
 ?>
