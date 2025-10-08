@@ -1,5 +1,3 @@
-//EJERCICIOS Taller PHP 
-
 <?php
     //Ejercicio 1 SINTAXIS PHP
     //Declare una variable llamada $nombre y asígnale tu nombre.
