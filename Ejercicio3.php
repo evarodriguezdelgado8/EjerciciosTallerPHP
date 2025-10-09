@@ -35,7 +35,7 @@
    
     // Aplica operadores lógicos para verificar si ambas variables son mayores de 10 y muestra un mensaje dependiendo del resultado.
 
-        if ($num1 > 10 && $num2 > 10){
+        if ($num1 > 10 && $num2 > 10){ // Verifica si ambas son mayores de 10
             echo "Ambas variables son mayores de 10";
         }else{
             echo "Al menos una de las variables no es mayor de 10";
