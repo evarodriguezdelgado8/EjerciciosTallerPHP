@@ -31,16 +31,23 @@
         $resultado = ($numero % 2 == 0) ? "par" : "impar"; // Operador ternario para comprobar si es par o impar
 
         echo "El número $numero es $resultado"; // Mostrar el resultado
+        echo "<br>";
    
     // Aplica operadores lógicos para verificar si ambas variables son mayores de 10 y muestra un mensaje dependiendo del resultado.
 
-        
-
+        if ($num1 > 10 && $num2 > 10){
+            echo "Ambas variables son mayores de 10";
+        }else{
+            echo "Al menos una de las variables no es mayor de 10";
+        }
+        echo "<br>";
 
     //Implementa operadores de incremento y decremento y muestra cómo cambian los valores de las variables.
 
-
-
-
+        echo ++$num1; // Imprime 11 (pre-incremento)
+        echo "<br>";
+        echo $num1++; // Imprime 11 (luego $num1 será 12)
+        echo "<br>";
+        echo $num1; // Imprime 12
    
 ?>
